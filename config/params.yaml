@@ -4,6 +4,6 @@ vOdom:
 
   # Save Data
   saveData: true
-  savePath: /home/Desktop/KTTI_results/
+  savePath: /home/mgkim/Desktop/KTTI_results/
 
 

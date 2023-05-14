@@ -37,9 +37,13 @@ public:
     ros::NodeHandle nh_;
 
     std::string kittiPath_;
-
+    std::string savePath_;
+    bool saveData_;
+    
     ParamServer()
     {
-        nh_.param<std::string>("vOdom/dataPath", kittiPath_, "/home/feiyu/bags/kitti");   
+        nh_.param<std::string>("vOdom/dataPath", kittiPath_, "/home/mgkim");   
+        nh_.param<std::string>("vOdom/savePath", savePath_, "/home/mgkim");   
+        nh_.param<bool>("vOdom/saveData", saveData_, false);
     }
 };
