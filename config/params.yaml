@@ -1,5 +1,9 @@
 vOdom:
-  # KITTI data path
+  # KITTI Data Path
   dataPath: /home/mgkim/workspace/KITTI/
+
+  # Save Data
+  saveData: true
+  savePath: /home/Desktop/KTTI_results/
 
 
