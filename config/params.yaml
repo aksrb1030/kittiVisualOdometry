@@ -1,0 +1,5 @@
+vOdom:
+  # KITTI data path
+  dataPath: /home/mgkim/workspace/KITTI/
+
+

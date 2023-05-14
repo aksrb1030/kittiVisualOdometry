@@ -30,15 +30,15 @@ catkin_package(
 )
 
 include_directories(
-  "/usr/include/eigen3"
   src
   include
+  "/usr/include/eigen3"
   ${catkin_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
 )
 
 add_executable(vOdom
-  src/main.cpp
+  src/main.cpp src/kittiIO.cpp
 )
 
 target_link_libraries(vOdom

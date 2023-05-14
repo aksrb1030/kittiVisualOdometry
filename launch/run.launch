@@ -1,0 +1,12 @@
+<launch>
+
+    <arg name="project" default="vOdom"/>
+    
+    <!-- Parameters -->
+    <rosparam file="$(find vOdom)/config/params.yaml" command="load" />
+
+    <node pkg="vOdom"   type="vOdom"  name="vOdom" output="screen"/>
+
+    
+
+</launch>
